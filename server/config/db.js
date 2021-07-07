@@ -7,7 +7,7 @@ module.exports = {
         const MONGO_PORT = process.env.MONGO_PORT;
         const MONGO_DB = process.env.MONGO_DB;
         const MONGO_USER = process.env.MONGO_USER;
-        const DB_URL = `mongodb://${MONGO_USER}:Test1234@${MONGO_HOSTNAME}:${MONGO_PORT}/activator?authSource=admin&poolSize=1`;
+        const DB_URL = `mongodb+srv://gdiazs:Cupcake1189!@activatorcluster0.xzqs0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
         mongoose.set('useNewUrlParser', true);
         mongoose.set('useFindAndModify', false);
